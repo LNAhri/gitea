@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   nightly-docker-rootful:
-    runs-on: namespace-profile-gitea-release-docker
+    runs-on: ubuntu-latest
     permissions:
       packages: write # to publish to ghcr.io
     steps:
