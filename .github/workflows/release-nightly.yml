@@ -50,4 +50,4 @@ jobs:
           push: true
           tags: |-
             gitea/gitea:${{ steps.clean_name.outputs.branch }}
-            ghcr.io/LNAhri/gitea:${{ steps.clean_name.outputs.branch }}
+            ghcr.io/lnahri/gitea:${{ steps.clean_name.outputs.branch }}
