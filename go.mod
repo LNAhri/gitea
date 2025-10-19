@@ -335,4 +335,4 @@ exclude github.com/goccy/go-json v0.4.11
 
 exclude github.com/satori/go.uuid v1.2.0
 
-replace xorm.io/xorm => gitea.com/LNAhri/xorm
+replace xorm.io/xorm => gitea.com/LNAhri/xorm v1.3.10
