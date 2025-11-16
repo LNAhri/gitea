@@ -1,11 +1,9 @@
-import './globals.ts';
 import '../fomantic/build/fomantic.js';
 import '../../node_modules/easymde/dist/easymde.min.css'; // TODO: lazy load in "switchToEasyMDE"
 
 import {initHtmx} from './htmx.ts';
 import {initDashboardRepoList} from './features/dashboard.ts';
 import {initGlobalCopyToClipboardListener} from './features/clipboard.ts';
-import {initContextPopups} from './features/contextpopup.ts';
 import {initRepoGraphGit} from './features/repo-graph.ts';
 import {initHeatmap} from './features/heatmap.ts';
 import {initImageDiff} from './features/imagediff.ts';
@@ -97,7 +95,6 @@ const initPerformanceTracer = callInitFunctions([
   initHeadNavbarContentToggle,
   initFootLanguageMenu,
 
-  initContextPopups,
   initHeatmap,
   initImageDiff,
   initMarkupAnchors,
